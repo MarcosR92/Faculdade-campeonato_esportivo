@@ -1,0 +1,181 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    text-align: justify;
+    background-color: #4FBD26;
+}
+
+header {
+    background: #F3FCF0;
+    padding: 10px 10px;
+    margin: 10px auto 10px auto;
+    width: 920px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 8px rgba(0, 0, 0, .7);
+    
+}
+
+.caixa {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+nav {
+    position: absolute;
+    right: 70px;
+    top: 30px;
+    font-family: 'Anton';
+}
+nav li {
+    display: inline;
+    margin: 0 0 0 20px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: #2E282A;
+    font-weight: bold;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #4FBD26;
+    font-size: 32px;
+    transition-duration: 200ms;
+    text-decoration: underline;
+}
+
+img#logo {
+    position: relative;
+    left: 70px;
+}
+
+main {
+    background: #F3FCF0;
+    padding: 10px 10px;
+    margin: 15px auto 10px auto;
+    width: 920px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 8px rgba(0, 0, 0, .7);
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Russo One', sans-serif;
+    text-transform: uppercase;
+    font-size: 35px;
+}
+
+form {
+    margin: 40px 0;
+}
+
+form label, form legend {
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+
+
+table {
+    margin: 20px auto 40px;
+}
+
+thead {
+    background: #2E282A;
+    color: #F3FCF0;
+    font-weight: bold;
+    text-align: center;
+}
+
+td, th {
+    border:  1px solid #2E282A;
+    padding: 8px 15px;
+    font-weight: bold;
+    text-align: center;
+    vertical-align: middle;
+}
+
+th#tabelaclube {
+    font-size: 20px;
+    font-family: 'Rubik', sans-serif;
+}
+
+th#tabeladetalhe {
+    width: 600px;
+    font-size: 20px;
+    font-family: 'Rubik', sans-serif;
+}
+
+th#detalhes {
+    border:  1px solid #2E282A;
+    padding: 8px 15px;
+    font-weight: lighter;
+    text-align: justify;
+    width: 150px;
+    vertical-align: super;
+}
+
+h2#titulotime {
+    text-align: center;
+    font-weight: bold;
+    font-family: "Russo One";
+    font-size: 25px;
+    padding: 10px 0px 20px 0px;
+    color: #2E282A;
+}
+
+p#descricaotime {
+    text-align: justify;
+    font-family: 'Rubik', sans-serif;
+    font-size: 1.2em;
+    padding: 0px 5px 30px 5px;
+    line-height: 1.5;
+}
+
+p#elencotime{
+    padding: 0px 0px 30px 0px;
+    text-align: center
+}
+
+a#linktime {
+    text-transform: uppercase;
+    color: #2E282A;
+    font-weight: bold;
+    font-size: 1.1em;
+    text-decoration: none;
+    transition-duration: 200ms;
+}
+
+a#linktime:hover {
+    color: #4FBD26;
+    font-size: 1.2em;
+    text-decoration: underline;
+    transition-duration: 200ms;
+}
+
+footer {
+    background: #F3FCF0;
+    padding: 10px 10px;
+    margin: 15px auto 50px auto;
+    width: 920px;
+    border-radius: 15px;
+    text-align: center;
+    font-family: 'Russo One';
+    font-size: 15px;
+    color: #2E282A;
+    box-shadow: 5px 5px 8px rgba(0, 0, 0, .7);
+
+.copyright {
+        color: #ffffff;
+    font-size: 13px;
+    margin-top: 20px;
+}
+
+
+
+@media screen and (max-width: 480px) {
+    
+}
